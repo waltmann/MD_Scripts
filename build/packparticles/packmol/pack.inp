@@ -1,0 +1,17 @@
+#
+# A mixture of tetra and nps
+#
+
+tolerance 2.0
+filetype xyz
+output mixture.xyz
+
+structure tetra.xyz 
+  number 100 
+  inside box -30. -30. -30. 30. 30. 30. 
+end structure
+
+structure single.xyz
+  number 5000
+  inside box -30. -30. -30. 30. 30. 30. 
+end structure

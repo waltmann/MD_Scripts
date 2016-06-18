@@ -1,0 +1,14 @@
+#
+#
+#
+
+tolerance 2.0
+filetype xyz
+output n10_Au201HC.xyz
+
+structure Au201HC.xyz
+  number 10 
+  inside box -30. -30. -30. 30. 30. 30. 
+end structure
+
+

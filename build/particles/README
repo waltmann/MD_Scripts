@@ -1,0 +1,5 @@
+Build a particle using build.py or a shell particle using buildshell.py to truncates a lattice of particles
+
+Both of these scripts make use of nanoparticle_core.py to truncate the existing lattice by the fcc or bcc NN planes
+
+

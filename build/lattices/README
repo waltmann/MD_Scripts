@@ -1,0 +1,10 @@
+Use create_crystal.py to initialize a simple cubic, fcc, or bcc lattice.
+
+###EXAMPLES###
+$ python create_crystal.py -s1  -a 2.00  -n 4 4 4  # 4x4x4 unit cells of simple cubic lattice with lattice constant a=2.0
+$ python create_crystal.py -s2  -a 1.00  -n 6 6 6  # 6x6x6 unit cells of bcc lattice with lattice constant a=1.0
+$ python create_crystal.py -s3  -a 1.00  -n 4 4 4  # 4x4x4 unit cells of fcc lattice with lattice constant a=1.0
+
+create_crystal.py requires modification to normalize fo the number of unit cells, which at the moment, must be done manually in the file in order to write an xyz file.
+
+

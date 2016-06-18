@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<hoomd_xml version="1.1"> 
+<configuration time_step="0"> 
+<box units="sigma"  lx="5.000000" ly="5.000000" lz="5.000000"/> 
+<type> 
+Au 
+Au 
+Au 
+Au 
+Au 
+</type> 
+<position units="sigma" > 
+-1.500000 -1.500000 0.000000 
+-1.500000 -0.500000 -1.000000 
+-1.500000 -1.000000 -0.500000 
+-2.000000 -0.500000 -0.500000 
+-2.000000 -1.000000 0.000000 
+</position> 
+<body> 
+0 
+0 
+0 
+0 
+0 
+</body> 
+</configuration> 
+</hoomd_xml> 
